@@ -107,7 +107,7 @@
             <div class="color-box d-flex align-items-end bg-primary p-3 rounded btn" style="width: -webkit-fill-available;" >
                 <div class="activity-icon avatar-sm" >
 
-                    <img src="assets/images/users/avatar-7.jpg" class="avatar-sm rounded-circle" alt="">
+                    <img src="assets/images/users/avatar-9.jpeg" class="avatar-sm rounded-circle" alt="">
 
                 </div>
                 <div class="media px-1">
