@@ -22,7 +22,7 @@
   <!-- App Css-->
   <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
-
+  <link href="assets/css/shahida.css" id="app-style" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -292,9 +292,9 @@
                               <img src="assets/images/logo-dark.png" height="22" alt="logo">
                             </a>
 
-                            <h5 class="text-primary mb-2 mt-4">Welcome Back !</h5>
-                            <p class="text-muted">Your Needs & Solutions
-                            </p>
+                            <h1 class="text-primary mb-2 mt-4">Welcome Back !</h1>
+                            <h5 class="text-muted">Your Needs & Solutions
+</h5>
                           </div>
 
 
@@ -318,7 +318,7 @@
                             </div>
 
                             <div>
-                              <a class="btn btn-primary w-100 waves-effect waves-light" href="{{ url('client') }}" type="submit">Log In</a>
+                              <a class="btn btn-primary w-100 waves-effect waves-light rounded" href="{{ url('client') }}" type="submit">Log In</a>
                             </div>
 
                             <div class="mt-4 text-center">
