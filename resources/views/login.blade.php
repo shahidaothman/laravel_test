@@ -29,8 +29,7 @@
 
             <div class="container">
 
-                <div class="home-btn"><a href="/" class="text-white router-link-active"><i
-                            class="fas fa-home h2"></i></a></div>
+
 
 
                 <div class="row justify-content-center">
@@ -46,7 +45,8 @@
                                         </a>
 
                                         <h5 class="text-primary mb-2 mt-4">Welcome Back !</h5>
-                                        <p class="text-muted">Sign in to continue to Morvin.</p>
+                                        <p class="text-muted">Your Needs & Solutions
+</p>
                                     </div>
 
 
