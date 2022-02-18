@@ -140,40 +140,40 @@
                     <div class="collapse navbar-collapse" id="topnav-menu-content">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">
+                                <span class="nav-link">
                                     <i class="dripicons-home me-2"></i> Home
-                                </a>
+                                </span>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
+                                <span class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
                                     <i class="dripicons-briefcase
 me-2"></i> Loan <div class="arrow-down"></div>
-                                </a>
+                                </span>
                                 <div class="dropdown-menu" aria-labelledby="topnav-apps">
 
                                     <a class="dropdown-item">Personal</a>
 
-                                    <a  class="dropdown-item">Business</a>
-                                    <a  class="dropdown-item">Home</a>
+                                    <a class="dropdown-item">Business</a>
+                                    <a class="dropdown-item">Home</a>
 
-                                    <a  class="dropdown-item">Car</a>
-                                    <a  class="dropdown-item">Educational Plan</a>
-                                    <a  class="dropdown-item">Other</a>
+                                    <a class="dropdown-item">Car</a>
+                                    <a class="dropdown-item">Educational Plan</a>
+                                    <a class="dropdown-item">Other</a>
                                 </div>
                             </li>
 
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
+                                <span class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
                                     <i class="dripicons-device-mobile" me-2></i> Apps <div class="arrow-down"></div>
-                                </a>
+                                </span>
                                 <div class="dropdown-menu" aria-labelledby="topnav-apps">
                                     <a class="dropdown-item">Download</a>
 
-                                    <a  class="dropdown-item">Calendar</a>
+                                    <a class="dropdown-item">Calendar</a>
 
-                                    <a  class="dropdown-item">Chat</a>
+                                    <a class="dropdown-item">Chat</a>
 
 
                                 </div>
@@ -181,15 +181,15 @@ me-2"></i> Loan <div class="arrow-down"></div>
 
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
+                                <span class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
                                     <i class="dripicons-location me-2
 "></i> Branch <div class="arrow-down"></div>
-                                </a>
+                                </span>
                                 <div class="dropdown-menu" aria-labelledby="topnav-apps">
 
-                                    <a  class="dropdown-item">Location</a>
+                                    <a class="dropdown-item">Location</a>
 
-                                    <a  class="dropdown-item">Appointment Branch</a>
+                                    <a class="dropdown-item">Appointment Branch</a>
 
 
 
@@ -199,21 +199,21 @@ me-2"></i> Loan <div class="arrow-down"></div>
 
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
+                                <span class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
                                     <i class="dripicons-search me-2"></i> Career <div class="arrow-down"></div>
-                                </a>
+                                </span>
                                 <div class="dropdown-menu" aria-labelledby="topnav-apps">
 
-                                    <a  class="dropdown-item">Job Opening</a>
+                                    <a class="dropdown-item">Job Opening</a>
 
 
                                 </div>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
+                                <span class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button">
                                     <i class="dripicons-phone me-2"></i> Contact Us
-                                </a>
+                                </span>
 
                             </li>
 
@@ -303,19 +303,19 @@ me-2"></i> Loan <div class="arrow-down"></div>
                                                     <form class="form-horizontal mt-4 pt-2" action="index.html">
 
                                                         <div class="mb-3">
-                                                            <label for="username">Username</label>
+                                                            <h4 for="username">Username</h4>
                                                             <input type="text" class="form-control" id="username" placeholder="Enter username">
                                                         </div>
 
                                                         <div class="mb-3">
-                                                            <label for="userpassword">Password</label>
+                                                            <h4 for="userpassword">Password</h4>
                                                             <input type="password" class="form-control" id="userpassword" placeholder="Enter password">
                                                         </div>
 
                                                         <div class="mb-3">
                                                             <div class="form-check">
                                                                 <input type="checkbox" class="form-check-input" id="customControlInline">
-                                                                <label class="form-label" for="customControlInline">Remember me</label>
+                                                                <span class="form-label" for="customControlInline">Remember me</span>
                                                             </div>
                                                         </div>
 
@@ -324,7 +324,7 @@ me-2"></i> Loan <div class="arrow-down"></div>
                                                         </div>
 
                                                         <div class="mt-4 text-center">
-                                                            <a href="auth-recoverpw.html" class="text-muted"><i class="mdi mdi-lock me-1"></i> Forgot your password?</a>
+                                                            <span href="auth-recoverpw.html" class="text-muted"><i class="mdi mdi-lock me-1"></i> Forgot your password?</span>
                                                         </div>
 
 
