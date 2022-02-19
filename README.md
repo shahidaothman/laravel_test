@@ -77,5 +77,7 @@ php artisan serve
 ![image info](public/assets/images/snapshots/client_transfer_detail.png)
 
 ![image info](public/assets/images/snapshots/admin_view.png)
-
-![image info](public/assets/images/snapshots/homepage.png)
+![image info](public/assets/images/snapshots/admin_action.png)
+![image info](public/assets/images/snapshots/admin_add.png)
+![image info](public/assets/images/snapshots/admin_edit.png)
+![image info](public/assets/images/snapshots/admin_sort.png)
