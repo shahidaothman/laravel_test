@@ -82,24 +82,47 @@ if transaction success, there will will outomated pop up show success.
 ![image info](public/assets/images/snapshots/client_success_transfer.png)
 
 Next client click on history tab. all transaction will appear.
+
 ![image info](public/assets/images/snapshots/client_history.png)
 
-Client can download and save the data.
+Client can download and save data to local.Client can choose any type file they want (Excel,pdf).
 
 ![image info](public/assets/images/snapshots/client_save_history.png)
 
+Click icon cog on top right bar, the dropdown option show profile or logout.
+
+![image info](public/assets/images/snapshots/client_mini.png)
+
+Client click on profile.
+
 ![image info](public/assets/images/snapshots/client_profile.png)
+
+Click edit to edit profile, the popup show.
+
 ![image info](public/assets/images/snapshots/client_edit_profile.png)
+
+The animation will show on top right if edit success
+
 ![image info](public/assets/images/snapshots/client_edit_success.png)
 
 # Admin
 
+Admin main page
+
 ![image info](public/assets/images/snapshots/admin_view.png)
+
+Click on pencil icon to edit client
 
 ![image info](public/assets/images/snapshots/admin_edit.png)
 
+The pencil icon will turn to save icon. Click on save icon to proceed.
+
 ![image info](public/assets/images/snapshots/admin_action.png)
 
+Click on top right green button "add client" to add new client. Add and save
+
 ![image info](public/assets/images/snapshots/admin_add.png)
+
+Admin can sort, export and search client
 
 ![image info](public/assets/images/snapshots/admin_sort.png)
