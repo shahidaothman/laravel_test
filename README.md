@@ -49,6 +49,7 @@ cd laravel_test
 Create enviroment
 
 ```sh
+composer install
 touch .env
 cp .env.example .env
 php artisan key:generate
