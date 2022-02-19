@@ -131,3 +131,5 @@ Admin can sort, export and search client
 ## Demo
 
 [Demo](hhttp://shahida-env.eba-shrz5e9k.us-east-1.elasticbeanstalk.com/)
+
+[This is an external link to genome.gov] (https://www.genome.gov/)
