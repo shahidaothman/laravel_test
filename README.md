@@ -1,14 +1,18 @@
 <p align="center"><img src="assets/images/logo-sm.png" width="400"></a></p>
- <img src="assets/images/logo-sm.png" alt="" height="22">
+ <img src="public/assets/images/logo-sm.png" alt="" height="22">
+ 
+ ![image info](public/assets/images/logo-sm.png)
+
 # SYA BANK SYSTEM
 
 ## Features
 
 1. Client User
-   a. Login and Logout
-   b. View and update his account details
-   c. View his transactions history
-   d. Transfer money to others
+
+- Login and Logout
+- View and update his account details
+  c. View his transactions history
+  d. Transfer money to others
 
 2. Admin User
    a. Login and logout
