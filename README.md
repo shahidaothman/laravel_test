@@ -1,7 +1,4 @@
-<p align="center"><img src="assets/images/logo-sm.png" width="400"></a></p>
- <img src="public/assets/images/logo-sm.png" alt="" height="22">
- 
- ![image info](public/assets/images/logo-sm.png)
+![image info](public/assets/images/logo-light.png)
 
 # SYA BANK SYSTEM
 
