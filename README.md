@@ -60,22 +60,22 @@ php artisan serve
 
 ## Snapshots
 
-![image info](public/assets/images/snapshorts/homepage.png)
+![image info](public/assets/images/snapshots/homepage.png)
 
 # client
 
-![image info](public/assets/images/snapshorts/client_home.png)
+![image info](public/assets/images/snapshots/client_home.png)
 
-![image info](public/assets/images/snapshorts/client_transfer.png)
-![image info](public/assets/images/snapshorts/client_transfer_detail.png)
-![image info](public/assets/images/snapshorts/client_edit_profile.png)
-![image info](public/assets/images/snapshorts/client_edit_success.png)
-![image info](public/assets/images/snapshorts/client_history.png)
-![image info](public/assets/images/snapshorts/client_profile.png)
-![image info](public/assets/images/snapshorts/client_save_history.png)
-![image info](public/assets/images/snapshorts/client_success_transfer.png)
-![image info](public/assets/images/snapshorts/client_transfer_detail.png)
+![image info](public/assets/images/snapshots/client_transfer.png)
+![image info](public/assets/images/snapshots/client_transfer_detail.png)
+![image info](public/assets/images/snapshots/client_edit_profile.png)
+![image info](public/assets/images/snapshots/client_edit_success.png)
+![image info](public/assets/images/snapshots/client_history.png)
+![image info](public/assets/images/snapshots/client_profile.png)
+![image info](public/assets/images/snapshots/client_save_history.png)
+![image info](public/assets/images/snapshots/client_success_transfer.png)
+![image info](public/assets/images/snapshots/client_transfer_detail.png)
 
-![image info](public/assets/images/snapshorts/admin_view.png)
+![image info](public/assets/images/snapshots/admin_view.png)
 
-![image info](public/assets/images/snapshorts/homepage.png)
+![image info](public/assets/images/snapshots/homepage.png)
