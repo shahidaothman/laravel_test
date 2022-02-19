@@ -24,6 +24,7 @@ Sya bank uses a number of open source projects to work properly:
 - [Laravel] - PHP enhanced for web apps!
 - [Bootstrap] - great UI boilerplate for modern web apps
 - [AWS Elestic Beanstalk] - the streaming build system
+- [AWS EC Key] - as key
 - [jquery] - any related to function
 - [github] - control version
 
@@ -126,3 +127,7 @@ Click on top right green button "add client" to add new client. Add and save
 Admin can sort, export and search client
 
 ![image info](public/assets/images/snapshots/admin_sort.png)
+
+## Demo
+
+[Demo](hhttp://shahida-env.eba-shrz5e9k.us-east-1.elasticbeanstalk.com/)
