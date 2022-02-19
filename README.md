@@ -60,24 +60,39 @@ php artisan serve
 
 ## Snapshots
 
+Homepage layout
+
 ![image info](public/assets/images/snapshots/homepage.png)
 
-# client
+# Client
+
+Homepage for client. They can see their balance, account no, and any related details
 
 ![image info](public/assets/images/snapshots/client_home.png)
 
+Client click on Pay/Transfer tab to make transcation. Client need to enter based on validation given.
+
 ![image info](public/assets/images/snapshots/client_transfer.png)
+
+Receiver details will pop up
 ![image info](public/assets/images/snapshots/client_transfer_detail.png)
+
+if transaction success, there will will outomated pop up show success.
+
 ![image info](public/assets/images/snapshots/client_success_transfer.png)
 
+Next client click on history tab. all transaction will appear.
 ![image info](public/assets/images/snapshots/client_history.png)
+
+Client can download and save the data.
+
 ![image info](public/assets/images/snapshots/client_save_history.png)
 
 ![image info](public/assets/images/snapshots/client_profile.png)
 ![image info](public/assets/images/snapshots/client_edit_profile.png)
 ![image info](public/assets/images/snapshots/client_edit_success.png)
 
-# admin
+# Admin
 
 ![image info](public/assets/images/snapshots/admin_view.png)
 
