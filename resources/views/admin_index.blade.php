@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
 
 
@@ -13,7 +14,8 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
     <!-- plugin css -->
-    <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+
+    <link href="{{ asset('assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css') }}" rel="stylesheet" type="text/css" />
 
     <!-- Bootstrap Css -->
     <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -21,17 +23,17 @@
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="assets/css/shahida.css" id="app-style" rel="stylesheet" type="text/css" />
+
 
     <!-- DataTables -->
     <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/libs/datatables.net-autoFill-bs4/css/autoFill.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/libs/datatables.net-keytable-bs4/css/keyTable.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Responsive datatable examples -->
     <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/shahida.css" id="app-style" rel="stylesheet" type="text/css" />
-
 </head>
+
 
 <body data-topbar="light" data-layout="horizontal">
 
@@ -90,7 +92,7 @@
                             <i class="mdi mdi-cog-outline font-size-20"></i>
                         </button>
                         <div class="dropdown-menu dropdown-menu-end">
-                            
+
 
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item text-danger" href="{{ url('/') }}"><i class="mdi mdi-power font-size-16 align-middle me-1 text-danger"></i> Logout</a>
@@ -247,69 +249,115 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="card">
+
+
                                     <div class="card-body">
                                         <h5 class=" mb-4 ">CLIENT DETAILS</h5>
 
 
+                                        <div id="datatable-buttons_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap dataTable no-footer dtr-inline" style="border-collapse: collapse; border-spacing: 0px; width: 100%;" role="grid" aria-describedby="datatable-buttons_info">
+                                                        <thead>
+                                                            <tr role="row">
+                                                                <th class="sorting_asc" tabindex="0" aria-controls="datatable-buttons" rowspan="1" aria-sort="ascending">ID</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">NAME</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">EMAIL</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">ACCOUNT NO</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">ADDRESS 1</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">ADDRESS 2</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">POSTCODE</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">STATE</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">COUNTRY</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1">ACTION</th>
+                                                            </tr>
+                                                        </thead>
 
 
-                                        <div class="table-responsive">
-                                            <table class="table table-editable table-nowrap align-middle table-edits">
-                                                <thead>
-                                                    <tr style="cursor: pointer;">
-                                                        <th>ID</th>
-                                                        <th>NAME</th>
-                                                        <th>EMAIL</th>
-                                                        <th>ACCOUNT NO</th>
-                                                        <th>ADDRESS 1</th>
-                                                        <th>ADDRESS 2</th>
-                                                        <th>POSTCODE</th>
-                                                        <th>STATE</th>
-                                                        <th>COUNTRY</th>
-                                                        <th>ACTION</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-
-                                                    <tr data-id="1" style="cursor: pointer;">
-                                                        <td data-field="id" style="width: 80px">2</td>
-                                                        <td data-field="name" style="width: 394.922px;">
-                                                            <h5 class="fs_15">Shahida Othman</h5>
-                                                        </td>
-                                                        <td data-field="email" style="width: 160.156px;">
-                                                            <h5 class="fs_15">shahida@gmail.com</h5>
-                                                        </td>
-                                                        <td data-field="account_no" style="width: 185.078px;">
-                                                            <h5 class="fs_15">256975413625</h5>
-                                                        </td>
-                                                        <td data-field="address1" style="width: 185.078px;">
-                                                            <h5 class="fs_15">259 Jln 4 Simpang 4</h5>
-                                                        </td>
-                                                        <td data-field="address2" style="width: 185.078px;">
-                                                            <h5 class="fs_15">Taman Pantai Satu</h5>
-                                                        </td>
-                                                        <td data-field="postcode" style="width: 185.078px;">
-                                                            <h5 class="fs_15">46200</h5>
-                                                        </td>
-                                                        <td data-field="state" style="width: 185.078px;">
-                                                            <h5 class="fs_15">Selangor</h5>
-                                                        </td>
-                                                        <td data-field="country" style="width: 185.078px;">
-                                                            <h5 class="fs_15">Malaysia</h5>
-                                                        </td>
-                                                        <td style="width: 100px">
-                                                            <a class="btn btn-outline-warning btn-sm edit" title="Edit">
-                                                                <i class="fas fa-pencil-alt" title="Edit"></i>
-                                                            </a>
-                                                            <a class="btn btn-outline-danger btn-sm " title="Delete">
-                                                                <i class="fas fa-trash-alt" title="Delete"></i>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
+                                                        <tbody>
 
 
-                                                </tbody>
-                                            </table>
+
+
+
+                                                            <tr data-id="1" style="cursor: pointer;" class="odd">
+                                                                <td data-field="id" style="width: 80px">2</td>
+                                                                <td data-field="name" style="width: 394.922px;">
+                                                                    <h5 class="fs_15">Shahida Othman</h5>
+                                                                </td>
+                                                                <td data-field="email" style="width: 160.156px;">
+                                                                    <h5 class="fs_15">shahida@gmail.com</h5>
+                                                                </td>
+                                                                <td data-field="account_no" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">256975413625</h5>
+                                                                </td>
+                                                                <td data-field="address1" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">259 Jln 4 Simpang 4</h5>
+                                                                </td>
+                                                                <td data-field="address2" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">Taman Pantai Satu</h5>
+                                                                </td>
+                                                                <td data-field="postcode" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">46200</h5>
+                                                                </td>
+                                                                <td data-field="state" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">Selangor</h5>
+                                                                </td>
+                                                                <td data-field="country" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">Malaysia</h5>
+                                                                </td>
+                                                                <td style="width: 100px">
+                                                                    <a class="btn btn-outline-warning btn-sm edit" title="Edit">
+                                                                        <i class="fas fa-pencil-alt" title="Edit"></i>
+                                                                    </a>
+                                                                    <a class="btn btn-outline-danger btn-sm " title="Delete">
+                                                                        <i class="fas fa-trash-alt" title="Delete"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="even">
+                                                                <td data-field="id" style="width: 80px">3</td>
+                                                                <td data-field="name" style="width: 394.922px;">
+                                                                    <h5 class="fs_15">Imran Shamsul Anuar</h5>
+                                                                </td>
+                                                                <td data-field="email" style="width: 160.156px;">
+                                                                    <h5 class="fs_15">imran@gmail.com</h5>
+                                                                </td>
+                                                                <td data-field="account_no" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">264553567532</h5>
+                                                                </td>
+                                                                <td data-field="address1" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">Jalan Persiaran TKP</h5>
+                                                                </td>
+                                                                <td data-field="address2" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">Taman kantan Permai</h5>
+                                                                </td>
+                                                                <td data-field="postcode" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">430000</h5>
+                                                                </td>
+                                                                <td data-field="state" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">Selangor</h5>
+                                                                </td>
+                                                                <td data-field="country" style="width: 185.078px;">
+                                                                    <h5 class="fs_15">Malaysia</h5>
+                                                                </td>
+                                                                <td style="width: 100px">
+                                                                    <a class="btn btn-outline-warning btn-sm edit" title="Edit">
+                                                                        <i class="fas fa-pencil-alt" title="Edit"></i>
+                                                                    </a>
+                                                                    <a class="btn btn-outline-danger btn-sm " title="Delete">
+                                                                        <i class="fas fa-trash-alt" title="Delete"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -338,29 +386,37 @@
     <!-- Right bar overlay-->
     <div class="rightbar-overlay"></div>
 
-    <!-- JAVASCRIPT -->
+
     <script src="assets/libs/jquery/jquery.min.js"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/libs/node-waves/waves.min.js"></script>
 
-    <!-- apexcharts -->
-    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+    <!-- Required datatable js -->
+    <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <!-- Buttons examples -->
+    <script src="assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+    <script src="assets/libs/jszip/jszip.min.js"></script>
+    <script src="assets/libs/pdfmake/build/pdfmake.min.js"></script>
+    <script src="assets/libs/pdfmake/build/vfs_fonts.js"></script>
+    <script src="assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+    <!-- Responsive examples -->
+    <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
 
-    <!-- Plugins js-->
-    <script src="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
-
-    <script src="assets/js/pages/dashboard.init.js"></script>
+    <!-- Datatable init js -->
+    <script src="assets/js/pages/datatables.init.js"></script>
 
 
     <script src="assets/js/app.js"></script>
 
-    <!-- Table Editable plugin -->
-    <script src="assets/libs/table-edits/build/table-edits.min.js"></script>
 
-    <script src="assets/js/pages/table-editable.init.js"></script>
+    <!-- Responsive examples -->
 
 </body>
 
